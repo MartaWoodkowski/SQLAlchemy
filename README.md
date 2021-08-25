@@ -6,7 +6,7 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 Using Python and SQLAlchemy, do basic climate analysis and data exploration of the climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
+* Using [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files, complete the climate analysis and data exploration.
 
 * Use SQLAlchemy `create_engine` to connect to your sqlite database.
 
@@ -95,19 +95,11 @@ Now that the initial analysis is completed, design a Flask API based on the quer
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 
-## Hints
-
-* You will need to join the station and measurement tables for some of the queries.
-
-* Use Flask `jsonify` to convert your API data into a valid JSON response object.
-
 - - -
 
-## Bonus: Other Recommended Analyses
+## Bonus: Other Analyses
 
-* The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
-
-* Use the provided [temp_analysis_bonus_1_starter.ipynb](temp_analysis_bonus_1_starter.ipynb) and [temp_analysis_bonus_1_starter](temp_analysis_bonus_2_starter.ipynb) starter notebooks for each bonus challenge.
+* Using [temp_analysis_bonus_part_1.ipynb](temp_analysis_bonus_part_1.ipynb) and [temp_analysis_bonus__part_2.ipynb](temp_analysis_bonus_part_2.ipynb) notebooks for each part of the bonus.
 
 ### Temperature Analysis I
 
