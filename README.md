@@ -6,13 +6,13 @@ I've decided to treat myself to a long holiday vacation in Honolulu, Hawaii! To 
 ![surfs-up.png](Images/surfs-up.png)
 ## Step 1 - Climate Analysis and Exploration
 
-Using Python and SQLAlchemy, I did basic climate analysis and data exploration of the climate database. All of the following analysis was be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
+Using Python and SQLAlchemy, I did basic climate analysis and data exploration of the climate database. All of the following analysis was completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 * Completed the climate analysis and data exploration, using [Climate Notebook](climate.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files.
 
-* Used SQLAlchemy `create_engine` to connect to your sqlite database.
+* Used SQLAlchemy `create_engine` to connect to SQLite database.
 
-* Used SQLAlchemy `automap_base()` to reflect your tables into classes and save a reference to those classes called `Station` and `Measurement`.
+* Used SQLAlchemy `automap_base()` to reflect my tables into classes and save a reference to those classes called `Station` and `Measurement`.
 
 * Linked Python to the database by creating an SQLAlchemy session.
 
@@ -66,7 +66,7 @@ Using Python and SQLAlchemy, I did basic climate analysis and data exploration o
 
 Now that the initial analysis is completed, I designed a Flask API based on the queries that I have just developed.
 
-* Used Flask to create your routes.
+* Used Flask to create my routes.
 
 ### Routes
 
